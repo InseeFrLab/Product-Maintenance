@@ -21,10 +21,6 @@ jobs:
         with:
           name: dist
           path: dist
-      - uses: actions/upload-artifact@v3
-        with:
-          name: entrypoint
-          path: entrypoint.sh
 
   check_if_version_upgraded:
     needs: build
@@ -67,10 +63,6 @@ jobs:
         with:
           name: dist
           path: dist
-      - uses: actions/download-artifact@v3
-        with:
-          name: entrypoint
-          path: entrypoint.sh
       - uses: docker/build-push-action@v4
         with:
           context: .
