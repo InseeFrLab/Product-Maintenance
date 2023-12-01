@@ -1,0 +1,16 @@
+.contact-us{
+  color: black;
+  border: 3px black solid;
+  border-radius: 15px;
+  padding-bottom: 1em;
+  width: 60%;
+  margin: auto;
+}
+
+.contact-us a {
+  color: black;
+}
+
+.contact-us a:hover {
+  font-weight: bold;
+}

@@ -1,0 +1,13 @@
+.main-message{
+  color: black;
+  font-size: 1.2em;
+  margin-bottom: 5em;
+}
+
+.main-message .maintenance-reason{
+  width: auto;
+  margin: auto;
+  border-top: 2px dashed black;
+}
+
+

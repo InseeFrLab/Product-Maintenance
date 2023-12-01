@@ -1,0 +1,30 @@
+
+body{  
+  background-color: white;
+}
+
+.main{  
+  z-index: 10;  
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.main-message{
+  font-size: 1.2em;
+  margin-bottom: 5em;
+}
+
+
+.season-selection{
+  position: absolute;
+  top:1em;
+  right: 1em;
+
+}
+
