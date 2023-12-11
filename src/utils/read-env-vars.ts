@@ -11,7 +11,7 @@ declare global {
  * @returns the value of variable name
  */
 export const getEnvVar = (varName: string) => {
-  return window?._env_[varName] || import.meta.env[varName] || "";
+  return window._env_ ? window._env_[varName] : import.meta.env[varName] || "";
 };
 
 export const environment = {
